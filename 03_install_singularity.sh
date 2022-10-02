@@ -24,5 +24,4 @@ cd singularity-ce-${VERSION}
 ./mconfig && \
 make -C builddir && \
 sudo make -C builddir install
-
-
+rm singularity-ce-3.9.5.tar.gz
