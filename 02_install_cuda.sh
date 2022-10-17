@@ -8,9 +8,9 @@
 # sudo apt-get update
 # # sudo apt-get -y install cuda-driver-dev-11-4
 
-# # export PATH="/usr/local/cuda-11.4/bin:$PATH"
-# # export LD_LIBRARY_PATH="/usr/local/cuda-11.4/lib64:$LD_LIBRARY_PATH"
-
+### export PATH="/usr/local/cuda/bin:$PATH"
+### export LD_LIBRARY_PATH="/usr/local/cuda/lib64:$LD_LIBRARY_PATH"
+### export CUDA_HOME=/usr/local/cuda
 
 # # install cuda 11-7-1
 # wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin

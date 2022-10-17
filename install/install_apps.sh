@@ -10,13 +10,13 @@
 #rm google-chrome-stable_current_amd64.deb
 # google-chrome
 
-echo "install atom"
-wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
-sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
-sudo apt update
-sudo apt install atom -y
+#echo "install atom"
+#wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
+#sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
+#sudo apt update
+#sudo apt install atom -y
 
-sh atom_packages.sh
+#sh atom_packages.sh
 
 echo "install handbrake"
 sudo add-apt-repository ppa:stebbins/handbrake-releases
@@ -26,10 +26,10 @@ sudo apt-get install handbrake -y
 echo " install texlive"
 sudo apt install texlive-full -y
 
-echo "install meshlab "
+echo "install meshlab"
 sudo apt install meshlab -y
 
-echo "install gimp "
+echo "install gimp"
 sudo apt install gimp -y
 
 echo "gnome tweaks"
