@@ -20,4 +20,7 @@
 # unzip AWSIM_v1.0.0.zip
 # cd AWSIM
 # sudo chmod +x AWSIM.x86_64
-# ./AWSIM.x86_64
+# # ./AWSIM.x86_64
+
+# # setup unity package
+# wget https://github.com/tier4/AWSIM/releases/download/v1.0.0/Japan_Tokyo_Nishishinjuku.unitypackage
