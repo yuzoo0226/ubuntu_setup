@@ -40,3 +40,8 @@ curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/source>
 sudo apt update
 sudo apt install teams
+
+wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | apt-key add -
+sudo echo "deb http://deb.anydesk.com/ all main" > /etc/apt/sources.list.d/anydesk-stable.list
+sudo apt update
+sudo apt install anydesk
