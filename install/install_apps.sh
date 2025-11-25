@@ -35,13 +35,11 @@ sudo apt install gimp -y
 echo "gnome tweaks"
 sudo apt install gnome-tweaks -y
 
-echo "install teams"
-curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
-sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/source>'
-sudo apt update
-sudo apt install teams
+echo "install brave browser"
+curl -fsS https://dl.brave.com/install.sh | sh
 
-# wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | sudo apt-key add -
-# sudo echo "deb http://deb.anydesk.com/ all main" > /etc/apt/sources.list.d/anydesk-stable.list
-# sudo apt update
-# sudo apt install anydesk
+echo "install tailscale"
+curl -fsSL https://tailscale.com/install.sh | sh
+
+echo "install simple screen recorder"
+sudo apt install simplescreenrecorder -y
